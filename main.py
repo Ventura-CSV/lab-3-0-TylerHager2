@@ -8,7 +8,9 @@ def main():
     Make your code here
     """
 
-    if (number % 2) == 1:
+    result = number % 2
+    
+    if result == 1:
         print(f'The value {number} is an odd number')
     else:
         print(f'The value {number} is an even number')
@@ -16,7 +18,7 @@ def main():
     ########################################
     # Do not delete the return statement
     ########################################
-    return number
+    return result
 
 
 if __name__ == '__main__':
